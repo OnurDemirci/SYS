@@ -3,10 +3,17 @@ It's a Decision Supporting System and dashboard that I design. The template is f
 
 resources:
 
-w3schools.com
-stackoverflow.com
-chartjs.org
-developers.google.com
-php.com
-jQuery.com
-getbootstrap.com
+https://www.w3schools.com
+
+https://www.stackoverflow.com
+
+https://www.chartjs.org
+
+https://www.developers.google.com
+
+https://www.php.com
+
+https://www.jQuery.com
+
+https://www.getbootstrap.com
+
