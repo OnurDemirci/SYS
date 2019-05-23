@@ -74,7 +74,7 @@ https://www.chartjs.org/docs/latest/charts/bar.html chartjs bar grafiği
 
 https://www.chartjs.org/docs/latest/general/colors.html - chartjs renk özelliği verme
 
-https://www.chartjs.org/samples/latest/charts/line/multi-axis.html -
+https://www.chartjs.org/samples/latest/charts/line/multi-axis.html - - chartjs birden fazla çizgili çizgi grafik örneği
 
 https://codepen.io/k3no/pen/pbYGVa - chartjs birden fazla çizgili çizgi grafiği
 
