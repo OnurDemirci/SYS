@@ -8,7 +8,7 @@ https://getbootstrap.com/docs/4.0/components/dropdowns/ - bahsi geçen sağ üst
 
 https://www.anarsamadov.net/turkce-karakter-sorunu-kesin-cozum.html - sql çıktılarını türkçe karakterli yapmak
 
-https://uxplanet.org/how-to-customize-bootstrap-b8078a011203 - bootstrap'a css özelliği ekleme
+https://uxplanet.org/how-to-customize-bootstrap-b8078a011203 - bootstrap css özelliklerini değiştirme
 
 https://jqueryui.com/autocomplete/ - arama kısmında kullandığım öneriler (arama kısmı fonksiyonel değil sadece belirlediğim kelimeleri öneriyor)
 
