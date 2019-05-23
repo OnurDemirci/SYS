@@ -26,7 +26,7 @@ https://www.quora.com/How-do-you-insert-a-variable-into-a-PHP-array - php deği�
 
 http://api.jquery.com/toggle/ - jQuery toggle() özelliği
 
-https://stackoverflow.com/questions/17583544/referenceerror-variable-is-not-defined - jQuery hata sorgusu
+https://stackoverflow.com/questions/17583544/referenceerror-variable-is-not-defined - js hata sorgusu
 
 https://stackoverflow.com/questions/16117290/display-the-result-of-a-javascript-function-in-a-div-element - bir html tag'inin içine js fonksiyon sonucu yazdırma
 
