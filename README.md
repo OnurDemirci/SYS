@@ -1,7 +1,8 @@
-It's a Decision Supporting System and dashboard that I design. The template is free to use. 
-!!IT'S NOT MOBILE COMPATIBLE AND WORKS BEST IN 1920*1080 RESOLUTION!!!
+Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim yazdım ve siteme ekledim. Siteyi yazarken  faydalandığım kaynakları da bu yazının altında bulabilirsiniz. İyi çalışmalar.
 
-resources:
+
+
+Kaynaklar:
 
 https://getbootstrap.com/docs/4.0/components/dropdowns/
 
@@ -82,6 +83,8 @@ https://getbootstrap.com/docs/4.3/content/tables/
 https://www.w3resource.com/mysql/date-and-time-functions/mysql-datediff-function.php
 
 https://www.w3schools.com/php/func_string_trim.asp
+
+https://stackoverflow.com/questions/7876283/using-focus-to-style-outer-div
 
 
 
