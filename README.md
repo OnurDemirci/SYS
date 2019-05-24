@@ -18,7 +18,7 @@ https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp - css'e font ekleme
 
 https://stackoverflow.com/questions/1462360/css-hover-one-element-effect-for-multiple-elements - bir hover ile birden fazla elemana özellik ekleme
 
-https://www.youtube.com/watch?v=M5iVKmM1rwU -chartjs veri tabanından veri çekme
+https://www.youtube.com/watch?v=M5iVKmM1rwU - chartjs veri tabanından veri çekme
 
 https://www.php.net/manual/tr/function.array-push.php - php array'e sonradan veri ekleme
 
