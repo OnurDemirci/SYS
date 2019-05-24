@@ -84,7 +84,11 @@ https://www.w3resource.com/mysql/date-and-time-functions/mysql-datediff-function
 
 https://www.w3schools.com/php/func_string_trim.asp - php trim fonksiyonu
 
-https://stackoverflow.com/questions/7876283/using-focus-to-style-outer-div - div'e tıklandığında başka dive css özelliği ekleme
+https://stackoverflow.com/questions/13831064/toggle-hide-item-when-click-outside-of-the-div - ekranın herhangi bir yerine tıklandığında bir html elemanını gizleme
+
+https://www.w3schools.com/css/css_outline.asp - button tagi outline özelliği düzenleme
+
+
 
 
 
