@@ -1,5 +1,8 @@
 Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim yazdım ve siteme ekledim. Derste bizden istediğiniz sitenin ekran görüntülerini de screenshots klasörüne yükledim. Siteyi yazarken  faydalandığım kaynakları da bu yazının altında bulabilirsiniz. İyi çalışmalar.
 
+Eğer siteyi yüklerseniz giriş yapmak için kullanıcı bilgileri:
+Kullanıcı Adı : serhat.sanli 
+Şifre : 1234
 
 
 Kaynaklar:
