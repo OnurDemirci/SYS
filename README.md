@@ -1,4 +1,4 @@
-Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim yazdım ve siteme ekledim. Siteyi yazarken  faydalandığım kaynakları da bu yazının altında bulabilirsiniz. İyi çalışmalar.
+Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim yazdım ve siteme ekledim. Derste bizden istediğiniz sitenin ekran görüntülerini de screenshots klasörüne yükledim. Siteyi yazarken  faydalandığım kaynakları da bu yazının altında bulabilirsiniz. İyi çalışmalar.
 
 
 
