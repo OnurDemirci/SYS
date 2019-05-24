@@ -53,30 +53,72 @@ else {
     });
   } );
 $(document).ready(function() {
-    $(".show1").click(function() {
-        $(".pop-up-g1").slideToggle();
-        $(".pop-up-g2").css('display','none');
+        $('.profile-button').click(function(event){
+        event.stopPropagation();
+         $(".profile-links").slideToggle('fast');
+    });
+    $(".profile-links").on("click", function (event) {
+        event.stopPropagation();
+    });
+$(document).on("click", function () {
+    $(".profile-links").slideUp('fast');
+ });
+
+    $('.show1').click(function(event){
+        event.stopPropagation();
+         $(".pop-up-g1").slideToggle();
+         $(".pop-up-g2").css('display','none');
         $(".pop-up-g3").css('display','none');
         $(".pop-up-g4").css('display','none');
     });
-        $(".show2").click(function() {
-        $(".pop-up-g2").slideToggle();
-        $(".pop-up-g1").css('display','none');
-        $(".pop-up-g3").css('display','none');
-        $(".pop-up-g4").css('display','none');
+    $(".pop-up-g1").on("click", function (event) {
+        event.stopPropagation();
     });
-        $(".show3").click(function() {
-        $(".pop-up-g1").css('display','none');
-        $(".pop-up-g2").css('display','none');
-        $(".pop-up-g3").slideToggle();
-        $(".pop-up-g4").css('display','none');
+$(document).on("click", function () {
+    $(".pop-up-g1").slideUp();
+ });
+    $('.show2').click(function(event){
+        event.stopPropagation();
+         $(".pop-up-g2").slideToggle();
+         $(".pop-up-g1").slideUp();
+        $(".pop-up-g3").slideUp();
+        $(".pop-up-g4").slideUp();
     });
-    $(".show4").click(function() {
-        $(".pop-up-g1").css('display','none');
-        $(".pop-up-g2").css('display','none');
-        $(".pop-up-g3").css('display','none');
-        $(".pop-up-g4").slideToggle();
+    $(".pop-up-g2").on("click", function (event) {
+        event.stopPropagation();
     });
+$(document).on("click", function () {
+    $(".pop-up-g2").slideUp();
+ });
+
+    $('.show3').click(function(event){
+        event.stopPropagation();
+         $(".pop-up-g3").slideToggle();
+         $(".pop-up-g2").slideUp();
+        $(".pop-up-g1").slideUp();
+        $(".pop-up-g4").slideUp();
+    });
+    $(".pop-up-g3").on("click", function (event) {
+        event.stopPropagation();
+    });
+$(document).on("click", function () {
+    $(".pop-up-g3").slideUp();
+ });
+
+    $('.show4').click(function(event){
+        event.stopPropagation();
+         $(".pop-up-g4").slideToggle();
+         $(".pop-up-g2").slideUp();
+        $(".pop-up-g3").slideUp();
+        $(".pop-up-g1").slideUp();
+    });
+    $(".pop-up-g4").on("click", function (event) {
+        event.stopPropagation();
+    });
+$(document).on("click", function () {
+    $(".pop-up-g4").slideUp();
+ });
+
     function nFormatter(num, digits) {
   var si = [
     { value: 1, symbol: "" },
@@ -112,15 +154,13 @@ $(document).ready(function() {
 		<div class="top-bar">
 		
 		<div class="menu-bar-2"><input id="tags" type="text" placeholder="Arama..."><a href="#" class="button"><img src="images/icons/search.png"></a>
-<div class="dropdown">
-  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="
-  	user-png" src="images/user.png">&nbsp;Serhat Şanlı
-  </button>
-  <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item bg-dark" href="#"><img src="images/icons/profile.png">Profil</a>
-    <a class="dropdown-item bg-dark" href="#"><img src="images/icons/settings.png">Ayarlar</a>
-    <a class="dropdown-item bg-dark" href="logout.php"><img src="images/icons/logout.png">Çıkış</a>
-  </div>
+<div class="profile-menu">
+<button class="profile-button"><img src="images/user.png"><p>Serhat Şanlı</p><img class="arrow1" src="images/icons/down.png"></button>
+    <div class="profile-links">
+        <a href="#"><img src="images/icons/profile.png">Profil</a>
+        <a href="#"><img src="images/icons/settings.png">Ayarlar</a>
+        <a href="logout.php"><img src="images/icons/logout.png">Çıkış</a>
+    </div>
 </div>
 	</div>
 </div>

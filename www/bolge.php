@@ -53,6 +53,16 @@ else {
     });
   } );
 $(document).ready(function() {
+        $('.profile-button').click(function(event){
+        event.stopPropagation();
+         $(".profile-links").slideToggle('fast');
+    });
+    $(".profile-links").on("click", function (event) {
+        event.stopPropagation();
+    });
+$(document).on("click", function () {
+    $(".profile-links").slideUp('fast');
+ });
     $("#cr").click(function() {
         $("#ciro").slideToggle();
         $("#musteri").css('display','none');
@@ -113,15 +123,13 @@ $(document).ready(function() {
     <div class="top-bar">
     
     <div class="menu-bar-2"><input id="tags" type="text" placeholder="Arama..."><a href="#" class="button"><img src="images/icons/search.png"></a>
-<div class="dropdown">
-  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="
-    user-png" src="images/user.png">&nbsp;Serhat Şanlı
-  </button>
-    <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item bg-dark" href="#"><img src="images/icons/profile.png">Profil</a>
-    <a class="dropdown-item bg-dark" href="#"><img src="images/icons/settings.png">Ayarlar</a>
-    <a class="dropdown-item bg-dark" href="logout.php"><img src="images/icons/logout.png">Çıkış</a>
-  </div>
+<div class="profile-menu">
+<button class="profile-button"><img src="images/user.png"><p>Serhat Şanlı</p><img class="arrow1" src="images/icons/down.png"></button>
+    <div class="profile-links">
+        <a href="#"><img src="images/icons/profile.png">Profil</a>
+        <a href="#"><img src="images/icons/settings.png">Ayarlar</a>
+        <a href="logout.php"><img src="images/icons/logout.png">Çıkış</a>
+    </div>
 </div>
   </div>
 </div>

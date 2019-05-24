@@ -50,7 +50,7 @@
 	width: 42%;
 	margin-left:67px;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 65px;
 	border-radius: 4px;
 	padding-right: 3px;
     -webkit-box-shadow: 0 0 8px 1px rgba(255, 83, 112,.7);
@@ -644,4 +644,62 @@ box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 .pdf:hover #pd-link{
 	display: block;
 	transition: .5s ease;
+}
+.profile-menu {
+	margin-left: 75%;
+	margin-top: 3px;
+}
+.profile-links a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 7px 25px;
+	transition: .4s ease;
+	border-radius: 4px;
+
+}
+.profile-links a img {
+	width: 28px;
+}
+.profile-links {
+	background-color: #1d2531;
+	border-radius: 3px;
+	margin-top: 1px;
+	width: 190px;
+	margin-left: 5px;
+	display: none;
+}
+.profile-links img {
+	width: 30px;
+	padding: 5px;
+}
+.profile-button {
+	background-color: #1d2531;
+	color: white;
+	border-radius: 5px;
+	padding: 1px 20px;
+	height: 45px;
+	border: 1px solid #1d2531;
+	width: 200px;
+	display: flex;
+}
+.profile-button img {
+	width: 40px;
+	padding: 5px;
+}
+.profile-button p {
+	margin-top: 8px;
+}
+.profile-button .arrow1 {
+	width: 26px;
+	margin-left: 2%;
+	margin-top: 10px;
+}
+.profile-links a:hover {
+	background-color: #263544;
+}
+.profile-button:focus {
+	outline: none;
+	background-color: #29323f;
+	
 }

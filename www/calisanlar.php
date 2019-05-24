@@ -53,6 +53,16 @@ else {
     });
   } );
 $(document).ready(function() {
+        $('.profile-button').click(function(event){
+        event.stopPropagation();
+         $(".profile-links").slideToggle('fast');
+    });
+    $(".profile-links").on("click", function (event) {
+        event.stopPropagation();
+    });
+$(document).on("click", function () {
+    $(".profile-links").slideUp('fast');
+ });
     $("#show1").click(function() {
         $("#calisan1").slideToggle();
         $("#calisan2").css('display','none');
@@ -193,15 +203,13 @@ ci1= nFormatter(<?php echo $iadeSon1; ?>,0);
     <div class="top-bar">
     
     <div class="menu-bar-2"><input id="tags" type="text" placeholder="Arama..."><a href="#" class="button"><img src="images/icons/search.png"></a>
-<div class="dropdown">
-  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="
-    user-png" src="images/user.png">&nbsp;Serhat Şanlı
-  </button>
-    <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item bg-dark" href="#"><img src="images/icons/profile.png">Profil</a>
-    <a class="dropdown-item bg-dark" href="#"><img src="images/icons/settings.png">Ayarlar</a>
-    <a class="dropdown-item bg-dark" href="logout.php"><img src="images/icons/logout.png">Çıkış</a>
-  </div>
+<div class="profile-menu">
+<button class="profile-button"><img src="images/user.png"><p>Serhat Şanlı</p><img class="arrow1" src="images/icons/down.png"></button>
+    <div class="profile-links">
+        <a href="#"><img src="images/icons/profile.png">Profil</a>
+        <a href="#"><img src="images/icons/settings.png">Ayarlar</a>
+        <a href="logout.php"><img src="images/icons/logout.png">Çıkış</a>
+    </div>
 </div>
   </div>
 </div>
@@ -365,6 +373,7 @@ var myChart = new Chart(ctx, {
             display: false,
             text: 'Ciro',
         },
+        legend: {display:false,},
         scales: {
         yAxes: [{id: 'y-axis-1', type: 'linear', position: 'left', ticks: {min: 500000, max:1800000}}]
       }
@@ -408,8 +417,10 @@ var myChart3 = new Chart(ctx, {
     options: {
         title: {
             display: false,
+            
             text: 'Şikayet Sayısı',
         },
+        legend: {display:false,},
         scales: {
         yAxes: [{id: 'y-axis-1', type: 'linear', position: 'left', ticks: {min: 5, max:43}}]
       }
@@ -453,8 +464,11 @@ var myChart2 = new Chart(ctx, {
     options: {
        title: {
             display: false,
+            
             text: 'Müşteri Sayısı',
         },
+
+        legend: {display:false,},
         scales: {
         yAxes: [{id: 'y-axis-1', type: 'linear', position: 'left', ticks: {min: 20000, max:42000}}]
       }
@@ -510,6 +524,7 @@ var myChart4 = new Chart(ctx, {
             display: false,
             text: 'Çöpe Giden Ürün Tutarı',
         },
+        legend: {display:false,},
         scales: {
         yAxes: [{id: 'y-axis-1', type: 'linear', position: 'left', ticks: {min: 5000, max:17000}}]
       }
