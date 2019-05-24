@@ -4,7 +4,7 @@ Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim y
 
 Kaynaklar:
 
-https://getbootstrap.com/docs/4.0/components/dropdowns/ - bahsi geçen sağ üst menü
+https://getbootstrap.com/docs/4.0/components/dropdowns/ - bahsi geçen sağ üst menü (şuan sitede bulunmamakta)
 
 https://www.anarsamadov.net/turkce-karakter-sorunu-kesin-cozum.html - sql çıktılarını türkçe karakterli yapmak
 
