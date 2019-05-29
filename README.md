@@ -1,4 +1,4 @@
-Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim yazdım ve siteme ekledim. Derste bizden istediğiniz sitenin ekran görüntülerini de screenshots klasörüne yükledim. Siteyi yazarken  faydalandığım kaynakları da bu yazının altında bulabilirsiniz. İyi çalışmalar.
+Sunumda bootstrap kullandığım elementi değiştirmemi istemiştiniz. Kendim yazdım ve siteme ekledim. Sitedeki tarih isimleri veritabanından çekildiğinden, MySQL'inizin tarih dili türkçeye ayarlı değilse tarih isimlerini ingilizce görebilirsiniz. Derste bizden istediğiniz sitenin ekran görüntülerini de screenshots klasörüne yükledim. Siteyi yazarken  faydalandığım kaynakları da bu yazının altında bulabilirsiniz. İyi çalışmalar.
 
 Eğer siteyi yüklerseniz giriş yapmak için kullanıcı bilgileri:
 
