@@ -621,8 +621,9 @@ box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 	transition: .5s ease;
 }
 .profile-menu {
-	margin-left: 75%;
+	margin-left: 85%;
 	margin-top: 3px;
+	position:absolute;
 }
 .profile-links a {
 	display: block;
