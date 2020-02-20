@@ -8,8 +8,6 @@ https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
 
 https://stackoverflow.com/questions/1462360/css-hover-one-element-effect-for-multiple-elements
 
-https://www.youtube.com/watch?v=M5iVKmM1rwU
-
 https://www.php.net/manual/tr/function.array-push.php
 
 https://www.quora.com/How-do-you-insert-a-variable-into-a-PHP-array
