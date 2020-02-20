@@ -1,4 +1,4 @@
-DSS(Decision Supporting System) Template
+DSS(Decision Supporting System) Web App
 
 Res:
 
